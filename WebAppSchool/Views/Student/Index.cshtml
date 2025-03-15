@@ -1,0 +1,63 @@
+﻿@using Models.Entities;
+@model List<Student>
+<nav>
+    <a class="btn btn-success" href="@Url.Action("Index", "Teacher")">View Teachers</a>
+    <a class="btn btn-success" href="@Url.Action("Index", "Student")">View Students</a>
+    <a class="btn btn-success" href="@Url.Action("Index", "Course")">View Coursees</a>
+</nav>
+
+<h1>Our Students</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.StudentId</td>
+                <td>@student.Name</td>
+                <td>@student.DateOfBirth.ToShortDateString()</td>
+                <td>@student.Email</td>
+                <td>@student.Phone</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+
+<h1>Use Lazy lodaing </h1>
+<ul class="list-group">
+
+@foreach (var student in Model)
+{
+
+        <li class="list-group-item active">@student.StudentId</li>
+        <li class="list-group-item">@student.Name</li>
+        <li class="list-group-item">@student.DateOfBirth.ToShortDateString()</li>
+        <li class="list-group-item">@student.Email</li>
+        <li class="list-group-item">@student.Phone</li>
+
+        <h3>Attendances Of @student.Name</h3>
+        @foreach (var Attend in student.Attendances)
+        {
+            <ul class="list-group">
+            <li>@Attend.Student.Name </li>
+            <li>@Attend.Courses.Name</li>
+            <li>@Attend.Date.ToShortDateString()</li>
+            <li>@(Attend.IsPresent ? "Present" : "Absent")</li>
+            </ul>
+        }
+
+    }
+
+</ul>
+

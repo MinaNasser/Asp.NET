@@ -1,0 +1,28 @@
+﻿@using Models.Entities
+@model List<Courses>
+<nav>
+    <a class="btn btn-success" href="@Url.Action("Index", "Teacher")">View Teachers</a>
+    <a class="btn btn-success" href="@Url.Action("Index", "Student")">View Students</a>
+    <a class="btn btn-success" href="@Url.Action("Index", "Course")">View Courses</a>
+</nav>
+<h1>Courses List</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Teacher</th>
+            <th>Classroom</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Teatcher.Name</td>
+                <td>@item.Classrooms.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model Teacher
+
+<form asp-controller="teacher" asp-action="Edit" method="post">
+    <!-- Hidden TeacherId -->
+    <input class="form-control" asp-for="TeacherId" hidden />
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input class="form-control" asp-for="Name" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Subject" class="form-label"></label>
+        <input class="form-control" asp-for="Subject" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input class="form-control" asp-for="Email" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="phone" class="form-label"></label>
+        <input class="form-control" asp-for="phone" />
+    </div>
+
+    <input class="btn btn-info" type="submit" value="Edit Teacher" />
+</form>

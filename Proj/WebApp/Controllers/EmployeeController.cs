@@ -12,7 +12,9 @@ namespace WebApp.Controllers
         EmpWithDEptListViewModel EmpWithDEptListViewModel = new EmpWithDEptListViewModel();
         public IActionResult Index()
         {
-            List<Employee> EmployeeList =context.Employee.ToList();
+            List<Employee> EmployeeList =context.Employee
+                .Include(e=>e.Department)
+                .ToList();
             return View("Index", EmployeeList);
         }
 
@@ -107,6 +109,26 @@ namespace WebApp.Controllers
             context.SaveChanges(true);
             return View("Index");
 
+        }
+        [HttpGet]
+        public IActionResult New()
+        {
+            ViewData["DeptList"] = context.Department.ToList();
+            return View("New");
+        }
+
+        [HttpPost]
+        public IActionResult SaveNewEmp(Employee empFromReq)
+        {
+            if (empFromReq.Name !=null)
+            {
+                context.Add(empFromReq);
+
+                context.SaveChanges();
+                return RedirectToAction("Index", "Employee");
+            }
+            ViewData["DeptList"] = context.Department.ToList();
+            return View("New",empFromReq);
         }
     }
 }

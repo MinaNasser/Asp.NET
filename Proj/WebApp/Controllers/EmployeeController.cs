@@ -1,4 +1,4 @@
-﻿ using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Extentions;
 using WebApp.Models;
@@ -79,10 +79,10 @@ namespace WebApp.Controllers
             return View(viewModel);
         }
         [HttpPost]
-        public IActionResult SaveEdit(Employee emp)
+        public IActionResult SaveEdit(Employee emp)  
         {
             
-            if (emp.Name != null)
+            if (ModelState.IsValid== true)
             {
                 Employee temp = context.Employee.FirstOrDefault(e => e.Id == emp.Id);
                 temp.Address = emp.Address;
@@ -97,7 +97,7 @@ namespace WebApp.Controllers
             return View("Edit", emp);
         }
 
-
+        [HttpGet]
         public IActionResult Delete(int id)
         {
             Employee employee = context.Employee.FirstOrDefault(x => x.Id == id);
@@ -106,8 +106,8 @@ namespace WebApp.Controllers
                 return NotFound();
             }
             context.Remove(employee);
-            context.SaveChanges(true);
-            return View("Index");
+            context.SaveChanges();
+            return RedirectToAction("Index", "Employee");
 
         }
         [HttpGet]
@@ -118,17 +118,27 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult SaveNewEmp(Employee empFromReq)
         {
-            if (empFromReq.Name !=null)
+            //if (empFromReq.Name !=null)
+            if (ModelState.IsValid == true) 
             {
-                context.Add(empFromReq);
+                if(empFromReq.DepartmentId != 0)
+                {
 
-                context.SaveChanges();
-                return RedirectToAction("Index", "Employee");
+                    context.Add(empFromReq);
+                    context.SaveChanges();
+                    return RedirectToAction("Index", "Employee");
+                }
+                else
+                {
+                    ModelState.AddModelError("DepartmentId", "Select  Department");
+                    
+                }
             }
             ViewData["DeptList"] = context.Department.ToList();
-            return View("New",empFromReq);
+             return View("New",empFromReq);
         }
     }
 }

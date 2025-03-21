@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\shared\\_advancedlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_advancedlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\models\\uniqnameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\uniqnameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\employee\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\employee\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|d:\\work\\1-material\\19 -asp.net\\\u0643\u0631\u0633\u062A\u064A\u0646\\mvc\\project\\proj\\webapp\\viewmodel\\empwithdeptlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9ADCA4A-E80E-46ED-A0CD-5F3A0E55CFEF}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodel\\empwithdeptlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -72,130 +56,78 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Department\\Index.cshtml",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAawB4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T02:20:06.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T02:19:17.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_AdvancedLayout.cshtml",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Shared\\_AdvancedLayout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_AdvancedLayout.cshtml",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Shared\\_AdvancedLayout.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Shared\\_AdvancedLayout.cshtml",
-              "ViewState": "AgIAAJkBAAAAAAAAAAAhwKcBAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T02:15:23.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T02:13:53.242Z",
+              "WhenOpened": "2025-03-21T22:41:37.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T02:08:57.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T02:00:41.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\DepartmentController.cs",
               "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:45:54.13Z",
+              "WhenOpened": "2025-03-21T23:02:15.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "UniqNameAttribute.cs",
+              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Models\\UniqNameAttribute.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\UniqNameAttribute.cs",
+              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Models\\UniqNameAttribute.cs",
+              "RelativeToolTip": "WebApp\\Models\\UniqNameAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T22:32:18.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Employee.cs",
+              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:31:20.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAMBBwG0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:31:12.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "New.cshtml",
               "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Employee\\New.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Employee\\New.cshtml",
               "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Employee\\New.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Employee\\New.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwBsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T01:34:06.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswB4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T01:00:33.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmpWithDEptListViewModel.cs",
-              "DocumentMoniker": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\ViewModel\\EmpWithDEptListViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\ViewModel\\EmpWithDEptListViewModel.cs",
-              "ToolTip": "D:\\work\\1-material\\19 -Asp.Net\\\u0643\u0631\u0633\u062A\u064A\u0646\\MVC\\Project\\Proj\\WebApp\\ViewModel\\EmpWithDEptListViewModel.cs",
-              "RelativeToolTip": "WebApp\\ViewModel\\EmpWithDEptListViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T23:27:19.607Z",
+              "WhenOpened": "2025-03-21T13:22:28.688Z",
               "EditorCaption": ""
             }
           ]

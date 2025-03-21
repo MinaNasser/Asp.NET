@@ -13,17 +13,28 @@ namespace WebApp.Models
         [Key]
 
         public int Id { get; set; }
-        
+
+        [Display(Name="Employee Name")]
+        [Required]
+        [MaxLength(30)]
+        [MinLength(3)]
+        [UniqName]
         public string Name { get; set; }
+        [Required]
+        [Range(minimum: 3000,maximum: 10000)]
         public int Salary { get; set; }
         public string JobTitle { get; set; }
+        [Required]
+        [RegularExpression(@"\w+\.(jpg|png)", ErrorMessage = "Image Must be .jpg or .png ")]
         public string ImageURL { get; set; }
-  
+
+        [Required]
+        [RegularExpression(@"[a-zA-Z]{3,}")]
         public string Address { get; set; }
         [ForeignKey("Department")]
         [Display(Name= "Department")]
         public int DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public virtual Department? Department { get; set; }
     }
 }
 // Add Configuration for Employees Table with Fluent API

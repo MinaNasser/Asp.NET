@@ -33,10 +33,44 @@ namespace WebApp.Controllers
             }
             return View("Add", departmentFromReq);
         }
-
         public IActionResult Edit(int id)
         {
-            return View("Edit");
+            var employee = db.Department.FirstOrDefault(e => e.Id == id);
+            var departments = db.Department.ToList();
+
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View("Index");
+        }
+        [HttpPost]
+        public IActionResult SaveEdit(Department department)
+        {
+
+            if (ModelState.IsValid == true)
+            {
+                Department temp = db.Department.FirstOrDefault(e => e.Id == department.Id);
+                temp.Name = department.Name;
+                
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View("Edit", department);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            Department department = db.Department.FirstOrDefault(x => x.Id == id);
+            if (department == null)
+            {
+                return NotFound();
+            }
+            db.Remove(department);
+            db.SaveChanges();
+            return RedirectToAction("Index", "Department");
+
         }
 
     }

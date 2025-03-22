@@ -1,0 +1,45 @@
+﻿@using Models.Entities;
+@model List<Teacher>
+<h1>Our Teacher</h1>
+
+<table class="table table-dark table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Teacher ID</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th scope="col">
+                Edit
+            </th>
+            <th scope="col">
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var teacher in Model)
+        {
+            <tr>
+                <td>@teacher.TeacherId</td>
+                <td>@teacher.Name</td>
+                <td>@teacher.Subject</td>
+                <td>@teacher.Email</td>
+                <td>@teacher.phone</td>
+                <td>
+                    <a 
+                        asp-action="edit" 
+                        asp-controller="Teacher"
+                        asp-route-Id="@teacher.TeacherId" 
+                    >Edit </a>
+                </td>
+                <td>
+                    <a asp-action="Delete"
+                       asp-controller="Teacher"
+                       asp-route-Id="@teacher.TeacherId">Delete </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

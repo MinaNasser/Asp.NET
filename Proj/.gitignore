@@ -360,8 +360,4 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
-<<<<<<< HEAD
-FodyWeavers.xsd*.suo
-=======
 FodyWeavers.xsd
->>>>>>> ba226b6f958cf03d5ee1daa9716042032232949a

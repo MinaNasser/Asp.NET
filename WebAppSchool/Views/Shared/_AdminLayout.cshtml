@@ -1,0 +1,77 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+
+    <!-- Mes styles-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+    @RenderSection("styles", false)
+</head>
+
+<body>
+
+    <!-- My Side Barre -->
+    <div class="sideBarre">
+        <div class="sideBarre__logo">
+            <div class="sideBarre__cercle">
+            </div>
+            <h1>serein</h1>
+        </div>
+        <div class="sideBarre__menu">
+            <ul>
+                <li>
+                    <a asp-controller="Teacher"
+                    asp-action="List">
+                    Get Teacher Teacher
+                </a>
+                </li>
+
+
+                <li>
+                    <a asp-controller="Teacher"
+                       asp-action="add">
+                       Add Teacher</a>
+                </li>
+               
+
+
+
+                <li><a href="#">Form Elements</a></li>
+                <li><a href="#">Editors</a></li>
+                <li><a href="#">Charts</a></li>
+                <li><a href="#">Tables</a></li>
+                <li><a href="#">Popups</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Maps</a></li>
+                <li><a href="#">User Pages</a></li>
+                <li><a href="#">Error Pages</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- My Main Content -->
+    <div class="mainContent">
+        <nav>
+            <div class="user">
+            </div>
+        </nav>
+
+        <!-- My Box Content -->
+        <div class="boxContent">
+            @RenderBody()
+        </div>
+    </div>
+
+</body>
+
+</html>

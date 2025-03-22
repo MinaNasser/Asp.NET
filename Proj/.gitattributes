@@ -60,8 +60,4 @@
 #*.pdf   diff=astextplain
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
-<<<<<<< HEAD
 #*.RTF   diff=astextplain
-=======
-#*.RTF   diff=astextplain
->>>>>>> ba226b6f958cf03d5ee1daa9716042032232949a

@@ -4,6 +4,7 @@ namespace WebApp.Models
 {
     public class UniqNameAttribute: ValidationAttribute
     {
+        public string msg { get; set; }
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
             if (value == null)
@@ -11,8 +12,10 @@ namespace WebApp.Models
 
             string newName = value.ToString();
             ITIContext context = new ITIContext();
-           Employee employee= context.Employee.FirstOrDefault(e => e.Name == newName);
-            if (employee != null)
+            Employee employeeDB= context.Employee.FirstOrDefault(e => e.Name == newName);
+            Employee employeeForm =(Employee) validationContext.ObjectInstance;
+
+            if (employeeDB != null)
             {
                 return new ValidationResult("Name Must be Uniq");
             }

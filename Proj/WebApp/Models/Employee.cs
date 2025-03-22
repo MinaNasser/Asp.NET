@@ -18,7 +18,7 @@ namespace WebApp.Models
         [Required]
         [MaxLength(30)]
         [MinLength(3)]
-        [UniqName]
+        [UniqName(msg ="Enter Uniq Name Please")]
         public string Name { get; set; }
         [Required]
         [Range(minimum: 3000,maximum: 10000)]
